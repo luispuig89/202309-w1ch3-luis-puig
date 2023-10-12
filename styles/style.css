@@ -12,9 +12,10 @@ header {
   align-items: center;
   background-color: #5169a7;
   padding: 1em;
-  font-size: larger;
+  font-size: large;
 }
 h1 {
+  font-size: xx-large;
   font-weight: bolder;
 }
 
@@ -56,6 +57,10 @@ section ul {
   font-size: large;
 }
 
+ul li:hover {
+  color: #d46004;
+}
+
 ul:nth-child(1) > li:nth-child(2n + 1) {
   text-decoration: line-through;
 }
@@ -76,9 +81,16 @@ section > div {
 
 footer {
   background-color: #5169a7;
+  display: flex;
+  padding: 2rem;
 }
-h1 {
+
+footer > a {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
+
 section > form {
   display: flex;
   flex-direction: column;
